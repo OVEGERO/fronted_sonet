@@ -9,7 +9,7 @@ import { Onu } from './onu';
 export class SmartoltService {
 
   private socket: any;
-  private url = 'https://full-app-sonet.onrender.com';
+  private url = 'http://localhost';
   private onus: Observable<Onu[]>;
 
   constructor() {
